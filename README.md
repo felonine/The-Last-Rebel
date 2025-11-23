@@ -40,7 +40,6 @@ git clone https://github.com/felonine/The-Last-Rebel
 ``` 
 2. Перейдите в папку проекта которую создали для него: если этого не сделали -> mkdir Game
 cd Game
-3.
 # Если используете g++ 
 g++ main.cpp Game.cpp CellPlayer.cpp -o play.exe #создание исполняемого файла название выбираете сами)
 ./game.exe #исполняемый файл 
