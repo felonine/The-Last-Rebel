@@ -1,5 +1,6 @@
 # MY C++ ADVENTURE SURVIVAL PROJECT(text-console)
-![not loading(](https://i.pinimg.com/originals/20/ff/e4/20ffe419796909feca129d6ab0e846ee.gif)
+
+![not loading(]("https://i.pinimg.com/originals/20/ff/e4/20ffe419796909feca129d6ab0e846ee.gif")
 
  Это мой второй серьезный проект – своего рода веха на моем пути. В этот раз, в первую очередь, я создавал его для себя, прислушиваясь к внутреннему голосу. 
  Если моя работа вдохновит кого-то еще, я буду рад видеть в этом подтверждение своего постепенного творческого роста.
