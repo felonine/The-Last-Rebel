@@ -42,10 +42,9 @@ mkdir Game
 ```bash 
 cd Game 
 ```
-### 3. Скачайте / Клонируйте 
-``` bash 
+### 3. Скачайте / Клонируйте  
 git clone [https://github.com/felonine/The-Last-Rebel](https://github.com/felonine/The-Last-Rebel)
-```
+
 # создание исполняемого файла название выбираете сами)
 # Если используете g++ 
 ``` bash
