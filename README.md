@@ -43,7 +43,7 @@ mkdir Game
 cd Game 
 ```
 ### 3. Скачайте / Клонируйте  
-git clone [https://github.com/felonine/The-Last-Rebel](https://github.com/felonine/The-Last-Rebel)
+- git clone [https://github.com/felonine/The-Last-Rebel](https://github.com/felonine/The-Last-Rebel)
 
 # создание исполняемого файла название выбираете сами)
 # Если используете g++ 
@@ -132,7 +132,7 @@ mkdir Game
 cd Game
 ```
 ### 3. Clone the repository 
-git clone [https://github.com/felonine/The-Last-Rebel](https://github.com/felonine/The-Last-Rebel)
+- git clone [https://github.com/felonine/The-Last-Rebel](https://github.com/felonine/The-Last-Rebel)
 
 ### 4. Build the executable (you choose the name)
 If you are using g++:
