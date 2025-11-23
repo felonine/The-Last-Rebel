@@ -71,9 +71,8 @@ g++ main.cpp Game.cpp CellPlayer.cpp -o play.exe
 - Новая карта и ловушки 
 
 🤝 Контакты
-
-Автор: FELONINE
-ТГШКА: @WhiteKatanV_BloodyGuys
-GitHub: https://github.com/felonine
+# Автор: FELONINE
+# ТГШКА: @WhiteKatanV_BloodyGuys
+# GitHub: https://github.com/felonine
 
 
