@@ -173,7 +173,7 @@ const int size_details = sizeof(details_glyphs)/sizeof(details_glyphs[0]);
         LegendCosmic();
           while(true) { 
             Input();
-            if(init_level >= 2 ) {
+            if(init_level >= 3 ) {
                 moveTraps();
             }
         if(level_completed == true) { 
