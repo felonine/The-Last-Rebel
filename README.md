@@ -1,4 +1,4 @@
-# MY C++ ADVENTURE SURVIVAL PROJECT(text-console)
+# 🚀 MY C++ ADVENTURE SURVIVAL PROJECT(text-console)
 
 ![not loading(](https://private-user-images.githubusercontent.com/191917952/517792152-a463c3d5-b63c-4f1d-9694-f8d16e55eea5.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjM4NzE2MDQsIm5iZiI6MTc2Mzg3MTMwNCwicGF0aCI6Ii8xOTE5MTc5NTIvNTE3NzkyMTUyLWE0NjNjM2Q1LWI2M2MtNGYxZC05Njk0LWY4ZDE2ZTU1ZWVhNS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEyM1QwNDE1MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZjUwNDlhZTUxMzA2MmVkN2EzZjU1YjU5YzI4MzIyM2IxZTE4ZTdkZTA1NmU2YzhkNGIyM2ExOWIwMzZiYjNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UOergUtV8NGdRBa7MQIMTl1S85h0FZlL9VlblEQBV4E)
 
@@ -34,24 +34,24 @@
 
 
 ## 🎮 Как запустить
-# 1. Создайте папку под игру
+### 1. Создайте папку под игру
 ```bash
 mkdir Game 
 ``` 
-# 2. Перейдите в эту папку 
+### 2. Перейдите в эту папку 
 ```bash 
 cd Game 
 ```
-# 3. Скачайте / Клонируйте 
+### 3. Скачайте / Клонируйте 
 ``` bash 
-git clone https://github.com/felonine/The-Last-Rebel
+git clone [https://github.com/felonine/The-Last-Rebel](https://github.com/felonine/The-Last-Rebel)
 ```
 # создание исполняемого файла название выбираете сами)
 # Если используете g++ 
 ``` bash
 g++ main.cpp Game.cpp CellPlayer.cpp -o play.exe
 ``` 
-# Запуск исполняемого файла
+### Запуск исполняемого файла
 ``` bash 
 ./game.exe 
 ```
@@ -75,4 +75,96 @@ g++ main.cpp Game.cpp CellPlayer.cpp -o play.exe
 # ТГШКА: @WhiteKatanV_BloodyGuys
 # GitHub: https://github.com/felonine
 
+## ENG VERSION 💫
+# 🚀 MY C++ ADVENTURE SURVIVAL PROJECT (TEXT-CONSOLE)
 
+![not loading(](https://private-user-images.githubusercontent.com/191917952/517792152-a463c3d5-b63c-4f1d-9694-f8d16e55eea5.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjM4NzE2MDQsIm5iZiI6MTc2Mzg3MTMwNCwicGF0aCI6Ii8xOTE5MTc5NTIvNTE3NzkyMTUyLWE0NjNjM2Q1LWI2M2MtNGYxZC05Njk0LWY4ZDE2ZTU1ZWVhNS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEyM1QwNDE1MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZjUwNDlhZTUxMzA2MmVkN2EzZjU1YjU5YzI4MzIyM2IxZTE4ZTdkZTA1NmU2YzhkNGIyM2ExOWIwMzZiYjNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UOergUtV8NGdRBa7MQIMTl1S85h0FZlL9VlblEQBV4E)
+
+This is my second serious project, marking a sort of milestone on my journey. This time, I primarily created it for myself, following my inner voice.
+If my work inspires someone else, I will be happy to see it as confirmation of my gradual creative growth.
+I see this as my slow, small path of progress. Good luck to everyone. (I won't lie, I didn't know about `std::any_of`, so GPT helped me with that—and you know, it's a good friend!)
+
+---
+
+## 🗺️ GAMEPLAY (ICON LEGEND)
+
+| Symbol | Description | Note |
+| :---: | :--- | :--- |
+| **`[p]`** | **You (Character / Player)** | Map movement. |
+| **`[#]`** | **Impassable Wall** | Map boundary. |
+| **`[X]`** | **Electric Trap** | Inflicts damage (`-15 HP`). |
+| **`[@]`** | **Active Portal** | Level objective. Appears after collecting all ship parts. |
+| **`[&, <, T...]`** | **Ship Parts** | Components needed to repair your vessel. |
+| **`[.]`** | **Floor / Empty Space** | Safe zone for movement. |
+
+![Not loading(((](https://i.pinimg.com/originals/b7/b7/79/b7b7792021731ae833883e69f2871999.gif)
+
+---
+
+## 📖 SYNOPSIS (The Story)
+
+You are the **last rebel engineer** from your entire crew.
+You miraculously survived a crash landing on a hostile alien planet.
+Your spaceship is shattered, you are completely alone, your communication device is broken, and the pin connectors are melted and burned out from a fatal short circuit.
+
+The only path to survival is to find and collect all the necessary parts for repairing your **ARC-170 Starfighter (Aggressive ReConnaissance-170)**, which are scattered across the levels. 
+You must collect them to activate a mysterious interdimensional portal and enter it to move forward, because the planet is dangerous at every turn. Be careful!
+
+---
+
+## ✅ GAME OBJECTIVE
+
+1.  **Main Goal:** The player's primary task is to survive and escape the planet by progressing through levels. Level 0 is a prologue to familiarize yourself with the game.
+2.  **Collect Parts:** On every level, starting from Level 1, the portal is blocked. To open it, you must find and collect all the **Ship Parts** (marked by symbols `&`, `<`, `T...`).
+3.  **Activate Portal:** Once the last part is picked up, the portal `[@]` activates.
+4.  **Transition:** Enter the portal to move to the next, more complex level (more traps and parts to collect).
+5.  **Threats:** Avoid **Electric Traps** (`[X]`), which inflict damage (`-15 HP`). If your health drops to zero, the game is over. You are dead.
+
+---
+
+## 🎮 HOW TO RUN
+
+### 1. Create a game folder
+```bash
+mkdir Game
+``` 
+### 2. Change folder 
+``` bash
+cd Game
+```
+### 3. Clone the repository 
+git clone [https://github.com/felonine/The-Last-Rebel](https://github.com/felonine/The-Last-Rebel)
+
+### 4. Build the executable (you choose the name)
+If you are using g++:
+``` bash
+g++ main.cpp Game.cpp CellPlayer.cpp -o play.exe
+```
+### 5. Run the executable
+```bash 
+./play.exe
+```
+
+
+💢 HOW TO PLAY
+Collect parts to repair the ship and escape the planet.
+
+Dodge the moving traps.
+
+Enter the portal, which appears after all parts on the current level have been collected.
+
+💡 FUTURE UPDATES
+New levels
+
+New quests, new difficulties
+
+Game lore book
+
+New maps and traps
+
+🤝 CONTACTS
+Author: FELONINE
+
+Telegram: @WhiteKatanV_BloodyGuys
+
+GitHub: https://github.com/felonine
