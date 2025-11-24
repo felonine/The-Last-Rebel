@@ -9,6 +9,7 @@ struct coords {
 };
 
  class Game {
+    static constexpr int Win_level = 7; 
     int init_level{0};
     static constexpr int HEIGHT{10};
     static constexpr int WIDTH{20};

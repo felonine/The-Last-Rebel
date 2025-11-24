@@ -204,30 +204,41 @@ const int size_details = sizeof(details_glyphs)/sizeof(details_glyphs[0]);
             player.clear();
             portal.clear();
             player.push_back({1,2});
-            if(init_level == 1) {
+           switch(init_level) { 
+            case 1: 
+            spawn_elements(3);
+            break;
+            case 2:
+            spawn_traps(2);
+            spawn_elements(5);
+            break;
+            case 3:
+             spawn_traps(2);
+                spawn_elements(4);
+                break;
+                case 4:
+                spawn_traps(3);
+                spawn_elements(4);
+                break;
+                case 5:
+                spawn_traps(5);
                 spawn_elements(3);
-            }  else if(init_level == 2) { 
-                spawn_traps(1);
-                spawn_elements(5);
-            }  else if(init_level == 3) {
+                break;
+                case 6:
                 spawn_traps(6);
                 spawn_elements(4);
-            } else if(init_level == 4) { 
-                 spawn_traps(6);
-                spawn_elements(6);
-            } else if(init_level == 5) { 
-                spawn_traps(7);
-                spawn_elements(5);
-            }
-            else {
-                system("cls");
+                break;
+                case Win_level:
+                 system("cls");
               std::cout << "\n\n\n";
               std::cout << "<><><><><><><><><><><><><><><>\n";
                 std::cout << "=========YOU[1011001]ESCAPED, exiting system.....\n";
                 std::cout << "<><><><><><><><><><><><><><><>\n";
                 Sleep(4000);
                 exit(0);
-            }
+                default:
+                throw std::out_of_range("Error303");
+           }
     }
  int Game::getLVL() const { return init_level;} 
     coords Game::save_coords() {
