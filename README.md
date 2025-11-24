@@ -1,6 +1,6 @@
 # 🚀 MY C++ ADVENTURE SURVIVAL PROJECT(text-console)
 
-![not loading(](https://private-user-images.githubusercontent.com/191917952/517792152-a463c3d5-b63c-4f1d-9694-f8d16e55eea5.jpg?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjM4NzE2MDQsIm5iZiI6MTc2Mzg3MTMwNCwicGF0aCI6Ii8xOTE5MTc5NTIvNTE3NzkyMTUyLWE0NjNjM2Q1LWI2M2MtNGYxZC05Njk0LWY4ZDE2ZTU1ZWVhNS5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMTIzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTEyM1QwNDE1MDRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hZjUwNDlhZTUxMzA2MmVkN2EzZjU1YjU5YzI4MzIyM2IxZTE4ZTdkZTA1NmU2YzhkNGIyM2ExOWIwMzZiYjNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UOergUtV8NGdRBa7MQIMTl1S85h0FZlL9VlblEQBV4E)
+![not loading](./imageBg/main.jpg)
 
  Это мой второй серьезный проект – своего рода веха на моем пути. В этот раз, в первую очередь, я создавал его для себя, прислушиваясь к внутреннему голосу. 
  Если моя работа вдохновит кого-то еще, я буду рад видеть в этом подтверждение своего постепенного творческого роста.
