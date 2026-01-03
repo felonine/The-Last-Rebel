@@ -103,7 +103,7 @@ I see this as my slow, small path of progress. Good luck to everyone. (I won't l
 | **`[&, <, T...]`** | **Ship Parts** | Components needed to repair your vessel. |
 | **`[.]`** | **Floor / Empty Space** | Safe zone for movement. |
 
-![not loading](./imageBg/main.jpg)
+![not loading](https://i.pinimg.com/originals/b7/b7/79/b7b7792021731ae833883e69f2871999.gif)
 
 ---
 
