@@ -4,50 +4,50 @@
 #include <windows.h>
 #include <algorithm>
 #include <process.h>
-const char details_glyphs[] = {'&', '<', '>', 'T', '/', '|'};
-const int size_details = sizeof(details_glyphs)/sizeof(details_glyphs[0]);
-   void Game::drawField() { 
+const char details_glyphs[] = {'&', '<', '>', 'T', '/', '|'}; // массив для хранения ловушек, это все виды ловушек,
+const int size_details = sizeof(details_glyphs)/sizeof(details_glyphs[0]); // размер массива путем вычисления на байты 
+   void Game::drawField() { // метод для отрисовки поля
      for(int i = 0; i < HEIGHT; ++i) { 
             for(int j = 0; j < WIDTH; ++j) { 
                 if(i == 0 || j == 0 || i == HEIGHT - 1 || j == WIDTH - 1)
-                field[i][j] = '#';
+                field[i][j] = '#'; // заполняем границы отмечая их 
                 else 
-                field[i][j] = '.';
+                field[i][j] = '.'; // заполняем пустоту - полом .
             }
         }
          for(auto it = details.cbegin(); it != details.cend(); ++it) { 
-             field[it->y][it->x] = it->glyph;
+             field[it->y][it->x] = it->glyph; // отрисовываем детали 
          }
            for(auto it = player.cbegin(); it != player.cend(); ++it) { 
-              field[it->y][it->x] = 'p';
+              field[it->y][it->x] = 'p'; // отрисовываем самого игрока 
            } 
            for(const auto& p : portal) { 
-              field[p.y][p.x] = '@';
+              field[p.y][p.x] = '@'; // отрисовываю портал
            }
             for(auto& tr : traps) { 
-                field[tr.y][tr.x] = 'X';
+                field[tr.y][tr.x] = 'X'; // отрисовка ловушки 
             }
         for(int i = 0; i < HEIGHT; ++i) { 
             for(int j = 0; j < WIDTH; ++j) { 
-                std::cout << field[i][j];
+                std::cout << field[i][j]; // выводим готовое поле в консоль
             }
             std::cout << std::endl;
         }
     } 
-      void Game::moveTraps() { 
-        int dy[] = {1,-1, 0, 0};
-        int dx[] = {0, 0, -1, 1}; 
-          for(std::size_t i = 0; i < traps.size(); ++i) { 
-             coords& curr_trap = traps[i];
-            coords next_pos = curr_trap; 
-                bool moved = false;
-                int tryies = 5;
+      void Game::moveTraps() {  // метод для движения ловушек 
+        int dy[] = {1,-1, 0, 0}; // массив с координатами строки для ловушек
+        int dx[] = {0, 0, -1, 1}; // массив с координатами столбцов для ловушек
+          for(std::size_t i = 0; i < traps.size(); ++i) {   
+             coords& curr_trap = traps[i]; // отмечаем текущую ловушку каждую итерацию
+            coords next_pos = curr_trap; // также копируем текущую в другой объект 
+                bool moved = false; // для логики движения как метка
+                int tryies = 5; // попытки для движения и попасть не в игрока или в другой объект
                 bool trap_rem = false;
                 while(!moved && tryies-- > 0) { 
-                     int dir = rand() % 4;
-                     next_pos.y = curr_trap.y + dy[dir];
+                     int dir = rand() % 4;  // движение будущий индекс для наших массивов
+                     next_pos.y = curr_trap.y + dy[dir]; 
                      next_pos.x = curr_trap.x + dx[dir];
-                     auto colusion_portals = std::any_of(portal.cbegin(), portal.cend(), [&] (const coords& c){
+                     auto colusion_portals = std::any_of(portal.cbegin(), portal.cend(), [&] (const coords& c){ // используем метод для того чтобы следить что объекты не попадают друг на друга
                         return c.y == next_pos.y && c.x == next_pos.x;
                      });
                      if(colusion_portals) continue;
